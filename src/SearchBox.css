@@ -1,0 +1,26 @@
+.search-box {
+  padding: 0 12px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.search-box input {
+  flex: 1 1 auto;
+  min-width: 150px;
+  color: black;
+  border: 2px solid currentColor;
+  padding: 8px;
+  box-shadow: 4px 4px 0px 0px currentColor;
+  transition: font-size 100ms;
+}
+
+.search-box input:hover {
+  color: blue;
+}
+
+.search-box input:focus-visible {
+  outline: none;
+  color: blue;
+  font-size: larger;
+}

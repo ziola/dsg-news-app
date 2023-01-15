@@ -1,0 +1,15 @@
+.button-link {
+  color: black;
+  font-size: larger;
+  transition: font-weight 100ms;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  font-weight: bolder;
+  color: blue;
+}

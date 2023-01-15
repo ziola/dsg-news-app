@@ -1,0 +1,23 @@
+.domains {
+  margin-bottom: 32px;
+}
+
+.domains ul {
+  list-style-type: none;
+}
+
+.domains h3 {
+  margin: 8px 0 16px;
+}
+
+.domains li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.domains .button-link {
+  text-align: start;
+}

@@ -1,0 +1,23 @@
+.topics {
+  margin-bottom: 32px;
+}
+
+.topics ul {
+  list-style-type: none;
+}
+
+.topics h3 {
+  margin: 8px 0 16px;
+}
+
+.topics li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.topics .button-link {
+  text-align: start;
+}
