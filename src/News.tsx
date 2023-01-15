@@ -80,7 +80,7 @@ function News() {
                 {!isLoading && error instanceof Error ?
                     <Box className="error">An error has occurred: {error.message}</Box> : null
                 }
-                {!isLoading ?
+                {!isLoading && !error ?
                     <>
                         <NewsResults articles={articles} />
                         {articles.length < (data?.pages[0].totalResults ?? 0) ? nextPageFetchComponent : null}
